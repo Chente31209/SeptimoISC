@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('/Nosotros', function () {
     return view('Nosotros');
 });
+
+Route::get('/nosotros', 'ResetaController1');
